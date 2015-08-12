@@ -1,12 +1,11 @@
 #include <Manchester.h>
 
 /*
-
   Manchester Transmitter example
-  
-  In this example transmitter will send one 16 bit number per transmittion
 
-  try different speeds using this constants, your maximum possible speed will 
+  In this example transmitter will send one 16 bit number per transmission
+
+  try different speeds using this constants, your maximum possible speed will
   depend on various factors like transmitter type, distance, microcontroller speed, ...
 
   MAN_300 0
@@ -17,8 +16,6 @@
   MAN_9600 5
   MAN_19200 6
   MAN_38400 7
-
-
 */
 
 #define TX_PIN 5  //pin where your transmitter is connected
